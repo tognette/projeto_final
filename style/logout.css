@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(black, #7a05c8);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.quem{
+    color: #7a05c8;
+    font-size: 60px;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 530px;
+}
+.avatares{
+    margin-top: 250px;
+    margin-left: 330px;
+    display: flex;
+    gap: 50px;
+}
+.uma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.umb{
+    font-size: 25px;
+}
+.doisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tresa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.um{
+    height: 260px;
+    width: 260px;
+    transition-duration: 500ms;
+    border-radius: 150px;
+}
+.um:hover{
+    border: solid #7a05c8 3px;
+    height: 300px;
+    width: 300px;
+}
+.dois{
+    height: 260px;
+    width: 260px;
+    transition-duration: 500ms;
+    border-radius: 150px;
+}
+.doisb{
+    font-size: 25px;
+}
+.dois:hover{
+    border: solid #7a05c8 3px;
+    height: 300px;
+    width: 300px;
+}
+.tres{
+    height: 260px;
+    width: 260px;
+    border-radius: 150px;
+    transition-duration: 500ms;
+}
+.tresb{
+    font-size: 25px;
+    margin-top: 22px;
+}
+.tres:hover{
+    border: solid #7a05c8 3px;
+    height: 300px;
+    width: 300px;
+}

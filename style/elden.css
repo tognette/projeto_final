@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+body{
+    background-image: url(../img/fundoelde2.png);
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+    position: absolute;
+    height: 100px;
+    width: 170px;
+    margin-left: 1330px;
+    margin-top: 140px;
+}
+.tudo{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 75px;
+}
+.logoghost{
+    height: 100px;
+    width: 330px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.jogo{
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    border: solid rgba(0, 0, 0, 0.62) 3px;
+    margin-left: -150px;
+    margin-top: -335px;
+}
+.videos{
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 550px;
+    height: 400px;
+    width: 600px;
+}
+.preco{
+    position: absolute;
+    width: 296px;
+    margin-top: 20px;
+    margin-left: -150px;
+    background-color: rgba(0, 0, 0, 0.622);
+    border: solid rgba(0, 0, 0, 0.712) 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.descricao{
+    color: rgb(255, 255, 255);
+    line-height: 23px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.valor{
+    color: rgb(255, 255, 255);
+    margin-left: 6px;
+    font-size: 20px;
+}
+.numero{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-size: 20px;
+}
+.historia{
+    font-size: 100px;
+    position: absolute;
+    margin-top: 450px;
+}
+.parte2{
+    background-color: rgba(0, 0, 0, 0.622);
+    height: 320px;
+    width: 620px;
+    border: solid rgba(0, 0, 0, 0.712) 4px;
+    padding: 25px;
+    margin-top: 950px;
+    margin-left: -50px;
+    text-align: justify;
+}
+.tudo{
+    margin-top: -140px;
+}
+.imagens{
+    margin-top: 30px;
+}
+.img1{
+    height: 390px;
+    width: 550px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border: solid black 5px;
+}
+.img2{
+    height: 390px;
+    width: 550px;
+    margin-left: 100px;
+    border: solid black 5px;
+}
+.img3{
+    height: 350px;
+    width: 550px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: solid black 5px;
+}
+.img4{
+    height: 340px;
+    width: 550px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: solid black 5px;
+}
+.plataformas{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.516);
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 640px;
+    margin-top: 30px;
+}
+.disponivel{
+    padding-top: 1px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ps{
+    height: 40px;
+    width: 50px;
+}
+.xbox{
+    height: 40px;
+    width: 50px;
+}
+.steam{
+    height: 40px;
+    width: 50px;
+}

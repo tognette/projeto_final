@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nandinagari&display=swap');
+body{
+    background-image: linear-gradient( to top right, black 60%, #510187);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nome{
+    font-size: 50px;
+    color: #510187;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 40px;
+    font-family: 'Noto Sans Nandinagari', sans-serif;
+}
+.logo{
+    height: 100px;
+    width: 170px;
+    margin-left: 1330px;
+    margin-top: -105px;
+    position: absolute;
+}
+.linha{
+    border: solid #2e004c 2px;
+    margin-top: 110px;
+}
+.box{
+    padding: 10px;
+    margin-top: 70px;
+    margin-left: 850px;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: #2e004c64;
+    border-radius: 30px;
+    border: #260140 solid 2px;
+}
+.itens{
+    font-size: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
+    color: rgb(217, 217, 217);
+}
+.valores{
+    font-size: 20px;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    color:  rgb(217, 217, 217);
+}
+.vf{
+    margin-top: 370px;
+    margin-left: -450px;
+    color:  rgb(217, 217, 217);
+    font-size: 35px;
+}
+.n{
+    margin-top: 370px;
+    margin-left: 70px;
+    color:  rgb(217, 217, 217);
+    font-size: 38px;
+}
+
+.cartao{
+    margin-top: -550px;
+    width: 400px;
+    height: 350px;
+}
+img{
+    height: 220px;
+    width: 180px;
+}
+.jogos{
+    margin-top: -470px;
+    margin-left: 200px;
+    display: flex;
+    gap: 20px;
+}
+.jogos1{
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.borda{
+    border: #38015d solid 2px;
+    background-color: #2e004c8c;
+    width: 395px;
+    height: 480px;
+    margin-top: -470px;
+    margin-left: 190px;
+}
+.botao{
+    color: white;
+    background-color: #330154;
+    text-decoration: none;
+    width: 395px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 190px;
+}
+.botao:hover{
+    background-color: #4c027e;
+}
+.video{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -30px;
+    background-color: #4c027e;
+    color: white;
+}
+.video2{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -30px;
+    background-color: #4c027e;
+    color: white;
+}
